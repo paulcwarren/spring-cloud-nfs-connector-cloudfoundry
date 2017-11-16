@@ -1,5 +1,5 @@
 # spring-cloud-nfs-connector-cloudfoundry
-[![Build Status](https://travis-ci.org/spiegela/spring-cloud-ecs-connector.svg?branch=master)](https://travis-ci.org/spiegela/spring-cloud-ecs-connector)
+[![Build Status](https://travis-ci.org/paulcwarren/spring-cloud-nfs-connector-cloudfoundry.svg?branch=master)](https://travis-ci.org/paulcwarren/spring-cloud-nfs-connector-cloudfoundry)
 [![Apache Version 2 Licence](http://img.shields.io/:license-Apache%20v2-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Spring Cloud NFS Service Connectors for CloudFoundry Volume Services
