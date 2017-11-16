@@ -13,8 +13,8 @@ In your application create an `@Configuration` class that extends `AbstractCloud
 public class NFSConfig extends AbstractCloudConfig {
 
 	@Bean
-    	public NFSConnector nfs() {
-        	return connectionFactory().service(NFSConnector.class);
+    	public NFSServiceConnector nfs() {
+        	return connectionFactory().service(NFSServiceConnector.class);
     	}
 }
 ```
@@ -26,7 +26,7 @@ Usage example:
 public class ExampleNFS {
 
     @Autowired
-    NFSConnector nfs;
+    NFSServiceConnector nfs;
 
     public void writeFile(String name, InputStream contents){
     	File file = new File(nfs.getVolumeMounts()[0].getContainerDir(), name);
