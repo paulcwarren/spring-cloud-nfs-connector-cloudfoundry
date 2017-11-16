@@ -1,0 +1,27 @@
+branches:
+  except:
+    - travis
+language: java
+jdk:
+- oraclejdk8
+env:
+- BUILD_TYPE=snapshot
+before_install:
+- ./scripts/before-install.sh
+install:
+  - mvn --settings settings.xml install -DskipTests=true -Dgpg.skip -Dmaven.javadoc.skip=true -B -V
+script:
+ - mvn test jacoco:report coveralls:report -Dmaven.javadoc.skip=true -B
+deploy:
+  - provider: script
+    script: scripts/deploy.sh
+    skip_cleanup: true
+    on:
+      repo: paulcwarren/spring-content
+      branch: master
+  - provider: script
+    script: scripts/deploy.sh
+    skip_cleanup: true
+    on:
+      repo: paulcwarren/spring-content
+      tags: true
