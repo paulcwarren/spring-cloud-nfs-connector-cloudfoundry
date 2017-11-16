@@ -31,8 +31,7 @@ public class NFSServiceInfoCreator extends CloudFoundryServiceInfoCreator<NFSSer
      * Map is created based on the VCAP_SERVICES environment variable.
      *
      * @param serviceData a java.util.Map containing the following required fields:  name,
-     *                    accessKey, secretKey; and the following optional fields:  bucket &
-     *                    endpoint.
+     *                    containerDir and mode
      * @return {@link NFSServiceInfo NFSServiceInfo}
      */
     @Override

@@ -11,7 +11,7 @@ public class NFSServiceConnector {
 
     /**
      * Generates an NFSServiceConnector with AWS SDK S3 client, the S3 endpoint and a baseUrl for
-     * public access to the same.  In most cases the endpoint & baseUrl are the same, but there
+     * public access to the same.  In most cases the endpoint and baseUrl are the same, but there
      * there are cases, when they will be different.
      *
      * @param volumeMounts an array of {@link VolumeMount}s that can be used by an application as persistent file

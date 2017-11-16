@@ -21,8 +21,8 @@ public class NFSServiceConnectorCreator
      * {@link NFSServiceInfo}.
      * @param serviceInfo NFSServiceInfo provided by {@link org.springframework.cloud.cloudfoundry.CloudFoundryServiceInfoCreator}
      *                    implementation included within the application.
-     * @param serviceConnectorConfig
-     * @return
+     * @param serviceConnectorConfig Configuration information to be applied to the connection
+     * @return service connector
      */
     @Override
     public NFSServiceConnector create(NFSServiceInfo serviceInfo, ServiceConnectorConfig serviceConnectorConfig) {
