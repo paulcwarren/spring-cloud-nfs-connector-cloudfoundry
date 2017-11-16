@@ -18,11 +18,11 @@ deploy:
     script: scripts/deploy.sh
     skip_cleanup: true
     on:
-      repo: paulcwarren/spring-content
+      repo: paulcwarren/spring-cloud-nfs-connector-cloudfoundry
       branch: master
   - provider: script
     script: scripts/deploy.sh
     skip_cleanup: true
     on:
-      repo: paulcwarren/spring-content
+      repo: paulcwarren/spring-cloud-nfs-connector-cloudfoundry
       tags: true
