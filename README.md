@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/paulcwarren/spring-cloud-nfs-connector-cloudfoundry.svg?branch=master)](https://travis-ci.org/paulcwarren/spring-cloud-nfs-connector-cloudfoundry)
 [![Apache Version 2 Licence](http://img.shields.io/:license-Apache%20v2-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Spring Cloud NFS Service Connectors for CloudFoundry Volume Services
+Spring Cloud NFS Service Connectors for [CloudFoundry Volume Services](https://docs.cloudfoundry.org/devguide/services/using-vol-services.html).
 
 ### Add a connector to your project
 
