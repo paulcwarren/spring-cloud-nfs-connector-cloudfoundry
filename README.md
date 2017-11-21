@@ -4,6 +4,8 @@
 
 Spring Cloud NFS Service Connectors for [CloudFoundry Volume Services](https://docs.cloudfoundry.org/devguide/services/using-vol-services.html).
 
+When running in CloudFoundry this Spring Cloud Connector allows you to easily configure your application to write to reliable, non-ephemeral nfs volumes. 
+
 ### Add a connector to your project
 
 The maven coordinates for this Spring Cloud Connector are as follows:
