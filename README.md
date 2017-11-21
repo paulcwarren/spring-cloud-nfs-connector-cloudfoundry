@@ -6,7 +6,17 @@ Spring Cloud NFS Service Connectors for CloudFoundry Volume Services
 
 ### Add a connector to your project
 
-In your application create an `@Configuration` class that extends `AbstractCloudConfig` to create a `NFSConnector` bean.  This bean provides access to the nfs volumes bund to the application. 
+The maven coordinates for this Spring Cloud Connector are as follows:
+
+```xml
+<dependency>
+  <groupId>com.github.paulcwarren</groupId>
+  <artifactId>spring-cloud-nfs-connector-cloudfoundry</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
+In your Spring application create an `@Configuration` class that extends `AbstractCloudConfig` to create a `NFSConnector` bean.  This bean provides access to the nfs volumes bund to the application. 
 
 ```java
 @Configuration
